@@ -5,13 +5,13 @@
 }
 :root{
     /* cores */
-    --cor-marca: rgb(112, 150, 255);
-    --cor-transparente: rgba(255, 255, 255, 0.56);
-    --cor-fundo: white;
-    --cor-superficie: rgb(230, 230, 230);
-    --cor-esqueleto: rgb(200, 200, 200);
-    --cor-textopri: rgb(50, 50, 50);
-    --cor-textosec: rgb(110, 110, 110);
+    --cor-marca: #5a84f8;
+    --cor-transparente: #ffffff8f;
+    --cor-fundo: #ffffff;
+    --cor-superficie: #eeeeee;
+    --cor-esqueleto: #c8c8c8;
+    --cor-textopri: #323232;
+    --cor-textosec: #6e6e6e;
     /* fontes */
     --font-family: "Rubik", sans-serif;
     --text-lg: bold 32px/125% var(--font-family); /* peso, tamanho, tamanho da linha e a fonte */
@@ -20,7 +20,27 @@
     --text-sm: 12px/175% var(--font-family);
 }
 body{
-    font: var(--text-lg);
+    font: var(--text);
     color: var(--cor-textosec);
     background-color: var(--cor-fundo);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: var(--cor-marca);
+    text-decoration: underline;
+}
+.container{
+    padding-inline: 25px;
+    max-width: 1920px;
+    margin-inline: auto;
+}
+.corsuperficie{
+    background-color: var(--cor-superficie);
+}
+span:hover{
+    text-decoration: none;
+    color: inherit
 }
