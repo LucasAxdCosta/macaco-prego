@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    /* cores */
+    --cor-marca: rgb(112, 150, 255);
+    --cor-transparente: rgba(255, 255, 255, 0.56);
+    --cor-fundo: white;
+    --cor-superficie: rgb(230, 230, 230);
+    --cor-esqueleto: rgb(200, 200, 200);
+    --cor-textopri: rgb(50, 50, 50);
+    --cor-textosec: rgb(110, 110, 110);
+    /* fontes */
+    --font-family: "Rubik", sans-serif;
+    --text-lg: bold 32px/125% var(--font-family); /* peso, tamanho, tamanho da linha e a fonte */
+    --text: 16px/150% var(--font-family);
+    --text-md: 14px/175% var(--font-family);
+    --text-sm: 12px/175% var(--font-family);
+}
+body{
+    font: var(--text-lg);
+    color: var(--cor-textosec);
+    background-color: var(--cor-fundo);
+}
