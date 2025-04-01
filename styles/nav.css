@@ -4,6 +4,7 @@ nav{
     align-items: center;
     line-height: 0;
     padding-block: 10px;
+    border-bottom: 1px solid #ffffff;
 }
 nav ul{
     display: flex;
@@ -20,7 +21,6 @@ nav ul{
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid var(--cor-marca);
 }
 /* ------- Botão aparecer -------*/
 #lupa {

@@ -16,8 +16,8 @@
     --font-family: "Rubik", sans-serif;
     --text-lg: bold 32px/125% var(--font-family); /* peso, tamanho, tamanho da linha e a fonte */
     --text: 16px/150% var(--font-family);
-    --text-md: 14px/175% var(--font-family);
-    --text-sm: 12px/175% var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
 }
 body{
     font: var(--text);
