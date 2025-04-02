@@ -1,8 +1,7 @@
 header{
     padding-block: 32px;
-    font: var(--text-md);
+    font: var(--text);
     text-align: justify;
-    height: 240px;
 }
 header .container{
     display: flex;

@@ -37,6 +37,10 @@ a:hover{
     max-width: 1920px;
     margin-inline: auto;
 }
+.container2{
+    max-width: 1400px;
+    margin-inline: auto;
+}
 .corsuperficie{
     background-color: var(--cor-superficie);
 }
